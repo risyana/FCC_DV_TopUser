@@ -8,3 +8,15 @@ a.customComponent {
 a.customComponent:hover{
   color: white;
 }
+
+.table-striped>tbody>tr:nth-child(odd)>td {
+  background-color: #FFFFFF;
+}
+
+.table-striped>tbody>tr:nth-child(even)>td {
+  background-color:#F2FFF2 ;
+}
+
+body{
+  background-color: #DADADA;
+}
